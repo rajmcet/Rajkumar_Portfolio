@@ -67,7 +67,7 @@ const typed = new Typed('.multiple-text', {
 document.getElementById("downloadBtn").addEventListener("click", function () {
   const link = document.createElement("a");
   link.href = ""; // Path to your resume file (make sure it's in the same folder)
-  link.download = "Resume.pdf"; // Name for the downloaded file
+  link.download = "Rajkumar M Resume.pdf"; // Name for the downloaded file
   link.click();
 });
 
